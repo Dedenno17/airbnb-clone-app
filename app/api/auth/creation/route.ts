@@ -32,5 +32,7 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("http://localhost:3000/");
+  return NextResponse.redirect(
+    "https://airbnb-clone-r2zxn38n6-dedenno17s-projects.vercel.app"
+  );
 }
